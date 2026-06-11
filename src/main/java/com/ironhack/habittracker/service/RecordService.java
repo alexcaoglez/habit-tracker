@@ -33,11 +33,17 @@ public class RecordService {
         return recordRepository.findByHabitIdAndDateBetween(habitId, startDate, endDate);
     }
 
+    // Método para crear un record cuando ya tienes el habitId
     public Record saveRecord(Long habitId, Record record) {
         Habit habit = habitRepository.findById(habitId).orElseThrow(
                 () -> new RuntimeException("Habit not found with id: " + habitId)
         );
         record.setHabit(habit);
+        return recordRepository.save(record);
+    }
+
+    // Método sobrecargado para crear un record cuando el hábito ya está asignado
+    public Record saveRecord(Record record) {
         return recordRepository.save(record);
     }
 
