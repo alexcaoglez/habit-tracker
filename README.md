@@ -21,9 +21,14 @@ La clase `Habit` es la padre y tiene dos hijas: `DailyHabit` y `WeeklyHabit`. Us
    - Pon tu API key de OpenAI en `spring.ai.openai.api-key`
 4. Ejecuta `HabittrackerApplication.java`
 
-Cuando arranca, se crean automáticamente 2 usuarios de prueba:
-- `alex` / `1234`
-- `maria` / `1234`
+Cuando arranca, se crean automáticamente 7 usuarios de prueba con sus hábitos:
+- `alex.cao` / `password123` (USER) - Hábitos: Beber agua, Gimnasio, Leer
+- `maria.lopez` / `maria2024` (ADMIN) - Hábitos: Meditar, Estudiar Java
+- `manuel.garcia` / `manuel123` (USER) - Hábitos: Correr, No mirar el móvil
+- `kike.rodriguez` / `kike2024` (USER) - Hábitos: Guitarra, Caminar después de comer
+- `salvatore.bianchi` / `salva123` (USER) - Hábitos: Diario, Yoga
+- `igor.petrov` / `igor2024` (USER) - Hábitos: Inglés, Proyecto personal
+- `natalia.fernandez` / `natalia123` (USER) - Hábitos: Dormir 8h, Cocinar en casa
 
 ## Tecnologías utilizadas
 
@@ -63,7 +68,7 @@ Cuando arranca, se crean automáticamente 2 usuarios de prueba:
 
 ## Enlaces adicionales
 
-- [Trello](TU_LINK_DE_TRELLO)
+- [Trello](https://trello.com/b/cFY7jaOZ/habit-tracker-final-project)
 - [Presentación](TU_LINK_DE_PRESENTACION)
 
 ## Trabajo futuro
