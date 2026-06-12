@@ -69,7 +69,7 @@ Cuando arranca, se crean automáticamente 7 usuarios de prueba con sus hábitos:
 ## Enlaces adicionales
 
 - [Trello](https://trello.com/b/cFY7jaOZ/habit-tracker-final-project)
-- [Presentación](TU_LINK_DE_PRESENTACION)
+- [Presentación](https://docs.google.com/presentation/d/1NLdzGgz1cfwySPeWCZM-W86scrzt3oFNUpgm4WYD1Po/edit?usp=sharing)
 
 ## Trabajo futuro
 
