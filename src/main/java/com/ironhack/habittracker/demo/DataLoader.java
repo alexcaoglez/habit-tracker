@@ -31,7 +31,7 @@ public class DataLoader implements CommandLineRunner {
         Role roleUser = roleService.save(new Role("ROLE_USER"));
         Role roleAdmin = roleService.save(new Role("ROLE_ADMIN"));
 
-        // Crear usuarios con datos realistas
+        // usuarios
         User alex = userService.saveUser(new User("Alejandro Cao", "alex.cao", "password123"));
         User maria = userService.saveUser(new User("María López", "maria.lopez", "maria2024"));
         User manuel = userService.saveUser(new User("Manuel García", "manuel.garcia", "manuel123"));
@@ -40,7 +40,7 @@ public class DataLoader implements CommandLineRunner {
         User igor = userService.saveUser(new User("Igor Petrov", "igor.petrov", "igor2024"));
         User natalia = userService.saveUser(new User("Natalia Fernández", "natalia.fernandez", "natalia123"));
 
-        // Asignar roles
+        // meterle roles
         roleService.addRoleToUser("alex.cao", "ROLE_USER");
         roleService.addRoleToUser("maria.lopez", "ROLE_ADMIN");
         roleService.addRoleToUser("manuel.garcia", "ROLE_USER");
